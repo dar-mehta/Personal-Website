@@ -1,0 +1,152 @@
+#navbtn {
+    color: black;
+    border-color: transparent;
+    text-transform: uppercase;
+    padding: 0;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+#navbtn {
+    border-color: transparent;
+    color: black; }
+  #navbtn:visited {
+    color: black; }
+  #navbtn:hover, #navbtn:focus {
+    background-color: black;
+    border-color: black;
+    color: white; }
+  #navbtn:active, #navbtn.active, #navbtn.is-active,
+  #nav li.active, li.active:hover, li.active:focus,
+  #nav li.active a, li.active:hover a, li:focus a {
+    background-color: black;
+    border-color: black;
+    color: white; }
+
+#sqbtn {
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 40px;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    line-height: 36px;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    -webkit-transition-property: all;
+          transition-property: all;
+    -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+#myolink {
+    color: black;
+    margin-top: -20px;
+    font-family: 'Belleza', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height:1.5;
+}
+
+#sqbtn {
+  background-color: black;
+  border-color: white;
+  color: white; }
+  #sqbtn:visited {
+    color: white; }
+  #sqbtn:hover, #sqbtn:focus {
+    background-color: white;
+    border-color: white;
+    color: black; }
+  #sqbtn:active, #sqbtn.active, #sqbtn.is-active {
+    background-color: white;
+    border-color: white;
+    color: #e6e6e6; }
+
+#socialbtn {
+    background-color: none;
+    border-color: transparent;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    padding: 0;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    line-height: 36px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+#socialbtn {
+  background-color: none;
+    border-color: transparent;
+    color: white; }
+  #socialbtn:visited {
+    color: white; }
+  #socialbtn:hover, #socialbtn:focus {
+    background-color: white;
+    border-color: white;
+    color: black; }
+  #socialbtn:active, #socialbtn.active, #socialbtn.is-active {
+    background-color: white;
+    border-color: white;
+    color: #e6e6e6; }
+
+/*#sqbtn {
+  background-color: white;
+  border-color: white;
+  color: black; }
+  #sqbtn:visited {
+    color: black; }
+  #sqbtn:hover, #sqbtn:focus {
+    background-color: white;
+    border-color: white;
+    color: black; }
+  #sqbtn:active, #sqbtn.active, #sqbtn.is-active {
+    background-color: white;
+    border-color: white;
+    color: #e6e6e6; }*/
+
+#gitbtn {
+    color: black;
+    background-color: none;
+    border-color: black;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 25px;
+    margin-left: 55px;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;  
+}
+
+#gitbtn .github-icon {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+#gitbtn {
+  background-color: none;
+  border-color: black; }
+  #gitbtn:visited {
+    color: black; }
+  #gitbtn:hover, #gitbtn:focus {
+    background-color: black;
+    border-color: black;
+    color: white; }
+  #gitbtn:active, #gitbtn.active, #gitbtn.is-active {
+    background-color: black;
+    border-color: black;
+    color: #e6e6e6; }

@@ -1,0 +1,217 @@
+html,body {
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: none;
+    color: white;
+}
+
+a, p, h1, h2, h3, h4, h5, h6{
+	font-family: 'Belleza', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height:1.5;
+}
+
+a{
+    font-family: 'Raleway';
+}
+
+h2{
+	font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.4em;
+    font-family: 'Raleway', sans-serif;
+    
+}
+/*h3{
+	font-size: 30px;
+	font-weight:400;
+	font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+	
+}*/
+h4{
+	font-size: 24px;
+    font-weight: 200;
+    padding-bottom: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+h5{
+	font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin-top: -20px;
+    display: inline-block;
+	font-family: 'Raleway', sans-serif;
+}
+/*h6{
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;*/
+}
+
+#nav {
+    padding-top: 5px;
+}
+
+#nav a {
+    color: black;
+    padding: 11px 10px;
+    font-family: 'Lusitana';
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+#myolink, #myolink:visited,
+#myolink:active, #myolink.active, #myolink.is-active{
+    color: black;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'Belleza', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height:1.5;
+}
+
+#myolink:hover{
+    text-decoration: none;  
+}
+
+#divider {
+    font-size: 30px;
+    color: #cccccc;
+    margin: 0 15px;
+}
+
+.jumbotron {
+    /*background-image: url(assets/jumbotronPic.jpg);*/
+    /*background-image: url(http://audereinvestments.com/wp-content/uploads/2013/12/CircuitBoard-Low-Res.jpg);*/
+    /*background-image: url(http://www.wallallies.com/wp-content/uploads/2015/04/Christmas-3D-Robot-Wallpaper-HD-30-For-Desktop-Background.jpg);*/
+    /*background-image: url(http://thecampusconnect.com/wp-content/uploads/2015/06/computer_engineering.jpg);*/
+    /*background-image:url('http://c2.staticflickr.com/6/5066/5780391408_e6a91c24b3_b.jpg');*/
+    /*background-image:url('http://goo.gl/04j7Nn');*/
+    background-image: url(index-assets/bg3-6.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron .container {
+    position: relative;
+    top:100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+}
+
+.jumbotron h1 {
+    text-shadow: 0 0 75px black;
+    font-size: 172px;  
+    font-family: 'Tangerine', cursive;
+}
+
+.jumbotron p {
+    font-size: 20px;
+}
+
+#imgsource, #sourcelink {
+    font-weight: 100;
+    color: white;
+    font-size: 5px;
+}
+
+.about {
+    background: black;
+    padding-bottom: 25px;
+}
+
+.about img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 280px; width: 280px; 
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 15px solid transparent;
+    box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+}
+
+.about p{
+    font-size: 18px;
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+/*.neighborhood-guides {
+ background-color: #efefef;
+ border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2{
+ color: #393c3d;
+ font-size: 24px;
+}
+
+.neighborhood-guides p{
+ font-size: 15px;
+ margin-bottom: 13px;
+}*/
+
+.contact {
+    padding-top: 40px; padding-bottom: 50px;
+    background: black;
+}
+
+.fa-stack-1x-shadow {
+    text-shadow: 0 0 8px black;
+}
+
+.projects {
+    background-color: #efefef; /*#f7f1e6;*/
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.projects h2{
+    color: black;
+    margin-top: -58px;
+    padding-bottom: 25px;
+}
+
+.projects .container a {
+    font-size: 11px;
+    padding: 15px 50px;
+}
+
+.wide-container {
+    width: 450px;
+    max-width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+#projdesc {
+    color: black;
+    margin-top: -20px;
+}
+
+.spacer {
+    margin-top: -35px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}

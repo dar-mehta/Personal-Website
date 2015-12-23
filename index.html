@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Dar Mehta | Personal Website</title>
+    
+    <!-- FONTS -->
+	<link href="http://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lusitana:400" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:200' rel='stylesheet' type='text/css'>
+
+    
+      <!-- Hide this line for IE (needed for Firefox and others) -->
+      <![if !IE]>
+        <link rel="icon" href="index-assets/web_icon.png" type="image/x-icon" />
+      <![endif]>
+      <!-- This is needed for IE -->
+      <link rel="shortcut icon" href="index-assets/web_icon.ico" type="image/ico" />
+      
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>body {position: relative; padding-top: 50px;}</style>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="55">
+    
+    <!-- FIXED NAVBAR -->  
+    <nav id="nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <ul class="nav navbar-nav pull-left">
+            <li><a id="navbtn" href="#top">Dar Mehta</a></li>
+            <li id="divider">/</li>
+            <li><a id="navbtn" href="#about">About Me</a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+            <li><a id="navbtn" href="projects.html">Projects</a></li>
+            <li id="divider">/</li>
+            <li><a id="navbtn" href="http://blog.darmehta.com">Blog</a></li>
+            <li id="divider">/</li>
+            <li><a id="navbtn" href="index-assets/Resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END FIXED NAVBAR -->
+      
+    <!-- MAIN HEADER JUMBOTRON -->  
+    <div id="top" class="jumbotron">
+      <div class="container">
+          <h1>Dar Mehta</h1>
+        <p>Enthusiastic Entrepreneur. Aspiring Mechatronics Engineer.</p>
+        <ul class="list-inline">
+            <li><a id="socialbtn" href="https://ca.linkedin.com/in/darmehta">
+                <span class="fa-stack fa-lg icon-linked">
+                    <i class="fa fa-linkedin"></i>
+                </span>
+                </a></li>
+            <li><a id="socialbtn" href="https://github.com/dar-mehta">
+                <span class="fa-stack fa-lg icon-github">
+                  <i class="fa fa-github"></i>
+                </span>
+                </a></li>
+            <li><a id="socialbtn" href="mailto:dr2mehta@uwaterloo.ca">
+                <span class="fa-stack fa-lg icon-envelope">
+                  <i class="fa fa-envelope-o"></i>
+                </span>
+                </a></li>
+        </ul>
+      </div>
+    </div>  
+    <!-- END MAIN HEADER JUMBOTRON -->
+      
+    <!-- ABOUT ME -->
+    <div id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="index-assets/dar-white.jpg">
+            <p> I am Dar Mehta, an 18 year old Mechatronics Engineering student in my 1A term at the University of Waterloo. My passion                     lies in taking on challenging and innovative projects to keep pace with the dynamic and exciting world of technology. <br/>                 <br/> My first exposure to robotics was with my high school's VEX Robotics team from which I branched out to the FIRST                     Robotics Competition. The combination of my passion for hardware and software development led to my ever-growing love for                   robotics and embedded systems. <br/><br/> My hobbies include watching and playing sports, particularly hockey. I also love                 gaming, hanging out with friends and family, watching movies, travelling and learning new things! </p>
+        </div>
+    </div>
+    <!-- END ABOUT ME -->
+      
+    <!-- CONTACT -->
+    <div class="contact">
+        <a name="contact">
+            <h2 style="padding-top: 7px; margin-top: -7px;"></h2>
+        </a>
+        <h4>Have any questions?</h4>
+        <a id="sqbtn" href="mailto:dr2mehta@uwaterloo.ca"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Contact Me</a>
+    </div>
+    <!-- END CONTACT -->
+    
+    <!-- JQUERY SCRIPTS -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+      
+    <!-- SMOOTH SCROLLING WITH OFFSET -->
+    <script>
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top-49
+                }, 750);
+
+                  $(document.activeElement).blur()
+
+                  console.log(window.location);
+                return false;
+              }
+            }
+          });
+        });
+    </script>  
+    <!-- END SMOOTH SCROLLING WITH OFFSET -->
+    <!-- END JQUERY SCRIPTS -->
+    
+  </body>
+</html>

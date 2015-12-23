@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Dar Mehta | Personal Website</title>
+    <!-- FONTS -->
+	<link href="http://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lusitana:400" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:200' rel='stylesheet' type='text/css'>
+
+    
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/superslides-0.6.2/dist/stylesheets/superslides.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>body {position: relative; padding-top: 50px;}</style>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="55">
+    
+    <!-- FIXED NAVBAR -->  
+    <nav id="nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <ul class="nav navbar-nav pull-left">
+            <li><a id="navbtn" href="index.html">Dar Mehta</a></li>
+            <li id="divider">/</li>
+            <li><a id="navbtn" href="index.html">About Me</a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+            <li><a id="navbtn" href="#projects">Projects</a></li>
+            <li id="divider">/</li>
+            <li><a id="navbtn" href="http://blog.darmehta.com">Blog</a></li>
+            <li id="divider">/</li>
+            <li><a id="navbtn" href="index-assets/Resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END FIXED NAVBAR -->
+
+    <!-- PROJECTS -->
+        <div id="projects" class="projects">
+            <div class="container">
+                <a name="projects">
+                    <h2 style="padding-top: 70px; margin-top: -70px;"></h2>
+                </a>
+                <h2>Projects</h2>
+            </div>
+
+            <div class="neighborhood-guides">
+                <div class="container">
+
+                    <!-- PROJECT ONE -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <div class="wide-container">
+                                    <div id="proj1">
+                                        <ul class="slides-container">
+                                            <li>
+                                                <img src="projects-assets/repleno-labs/pcb-front.jpg" alt="HTML5">
+                                            </li>
+                                            <li>
+                                                <img src="projects-assets/repleno-labs/pcb-back.jpg" alt="HTML5">
+                                            </li>
+                                        </ul>
+                                        <nav class="slides-navigation"> 
+                                            <a href="#" class="next"><i class="fa fa-chevron-circle-right fa-stack-1x-shadow"></i></a>
+                                            <a href="#" class="prev"><i class="fa fa-chevron-circle-left fa-stack-1x-shadow"></i></a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-7" id="projdesc">
+                            <h5>Repleno Charger (Increases Battery's Life Span)</h5>
+                            <p style="margin-top: -20px;">I co-founded Repleno Labs in order to develop an innovative mobile charger that will help increase battery life span. My peers and I decided to pursue this challenge because modern day cellphone batteries deteriorate noticeably in just a matter of months thus holding less charge per cycle. An android app automatically calculates how to safely charge the battery using an algorithm and sends this data to the charger via bluetooth. The user is also able to set alarms on the Repleno Charger android app to indicate when he/she requires the phone to be fully-charged (the user can also turn off the charger's functionality through the app in order to charge it normally if he/she is in a rush). As the Chief Technology Officer, I am responsible for the circuit design, component selection, and pcb design, testing & troubleshooting.</p>
+                            <p class="users"><i class="fa fa-users"></i>&nbsp;&nbsp;&nbsp;&nbsp;Dar Mehta, Yury Zhuk, Vik Goel, Jay Koshy</p>
+                            <p class="tools"><i class="fa fa-wrench"></i>&nbsp;&nbsp;&nbsp;&nbsp;Circuit Design, Component Selection, PCB Design (Upverter)</p>
+                        </div>
+                    </div>
+                    <!-- END PROJECT ONE -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="spacer"></div>    
+                        </div>
+                    </div>
+                    
+                    <!-- PROJECT TWO -->
+                    <div class="row">
+                        <div class="col-md-7" id="projdesc">
+                            <h5 style="padding-top: 45px;">Gesture-Controlled Robotic Arm</h5>
+                            <a id="gitbtn" href="https://github.com/dar-mehta/Gesture-Controlled-Robotic-Arm" target="_blank"><i class="fa fa-github github-icon"></i>&nbsp;&nbsp;View Code</a>
+                            <p style="margin-top: -20px;">Collaborated with three fellow mechatronics engineering students to create a gesture-controlled robotic arm controlled by the <a id="myolink" target="_blank" href="http://www.myo.com">Myo Armband</a>. The purpose was to create a robotic arm with an intuitive, easy to use control system. The device was used to pick up a beaker, move the beaker towards a glass, and pour the beaker's contents into the glass. The Monobrick Bluetooth library for C++ was modified for the purpose of this project to send direct motor and sensor commands to the Lego NXT brick.</p>
+                            <p class="users"><i class="fa fa-users"></i>&nbsp;&nbsp;&nbsp;&nbsp;Dar Mehta, Matthew Niedoba, Nikhil Keswani, Can Cui</p>
+                            <p cass="tools"><i class="fa fa-wrench"></i>&nbsp;&nbsp;&nbsp;&nbsp;Lego NXT, Myo Armband, C++, Bluetooth</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <div class="wide-container">
+                                    <div id="proj2">
+                                        <ul class="slides-container">
+                                            <li>
+                                                <img src="projects-assets/Gesture-Controlled-Arm/GCA1.jpg">
+                                            </li>
+                                            <li>
+                                                <img src="projects-assets/Gesture-Controlled-Arm/GCA5.jpeg">
+                                            </li>
+                                            <li>
+                                                <img src="projects-assets/Gesture-Controlled-Arm/GCA3.JPG">
+                                            </li>
+                                        </ul>
+                                        <nav class="slides-navigation"> 
+                                            <a href="#" class="next"><i class="fa fa-chevron-circle-right fa-stack-1x-shadow"></i></a>
+                                            <a href="#" class="prev"><i class="fa fa-chevron-circle-left fa-stack-1x-shadow"></i></a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <!-- END PROJECT TWO -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="spacer"></div>    
+                        </div>
+                    </div>
+                    
+                    <!-- PROJECT THREE -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <div class="wide-container">
+                                    <div id="proj3">
+                                        <ul class="slides-container">
+                                            <li>
+                                                <img src="projects-assets/wheg-robot/WRobot2.png">
+                                            </li>
+                                            <li>
+                                                <img src="projects-assets/wheg-robot/WRobot3.png">
+                                            </li>
+                                            <li>
+                                                <img src="projects-assets/wheg-robot/WRobot2.gif">
+                                            </li>
+                                        </ul>
+                                        <nav class="slides-navigation"> 
+                                            <a href="#" class="next"><i class="fa fa-chevron-circle-right fa-stack-1x-shadow"></i></a>
+                                            <a href="#" class="prev"><i class="fa fa-chevron-circle-left fa-stack-1x-shadow"></i></a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-7" id="projdesc">
+                            <h5 style="padding-top: 45px;">Wheg Stair Climbing Robot</h5>
+                            <p style="margin-top: -20px;">This robot utilizes a unique form of locomotion: actuated whegs. Whegs (wheel-legs) provide the robot with the ability to clear obstacles but in turn, cause a bumpy ride on smooth terrain. By utilizing a complex actuated wheg mechanism, this robot is able to transform between wheel-mode (used for driving on smooth terrain) and leg-mode (used for clearing obstacles such as climbing stairs) thus combining the benefits of traditional wheels and the wheg mechanism. The robot utilizes a bluetooth connection between an android phone and its arduino microcontroller. Designed in solidworks and fabricated using 3D printed parts and laser-cut aluminum.</p>
+                            <p class="users"><i class="fa fa-users"></i>&nbsp;&nbsp;&nbsp;&nbsp;Dar Mehta, Richard Li, Nikhil Keswani</p>
+                            <p class="tools"><i class="fa fa-wrench"></i>&nbsp;&nbsp;&nbsp;&nbsp;Solidworks, Arduino, Bluetooth</p>
+                        </div>
+                    </div>
+                    <!-- END PROJECT THREE -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="spacer"></div>    
+                        </div>
+                    </div>
+                    
+                    <!-- PROJECT FOUR -->
+                    <div class="row">
+                        <div class="col-md-7" id="projdesc">
+                            <h5 style="padding-top: 35px;">Cycle - BattleHack Toronto 2015</h5>
+                            <a id="gitbtn" href="https://github.com/dar-mehta/BattleHack-2015" target="_blank"><i class="fa fa-github github-icon"></i>&nbsp;&nbsp;View Code</a>
+                            <p style="margin-top: -20px;">Designed & built an NFC-enabled bike lock using an Arduino Uno and a PN532 NFC Shield. Designed and built an android application that enables bike owners to rent out their bikes, allowing the owner to set the hourly rate and put up a descripton and picture of the bike. The same application can be used by customers to see all the bikes that have been put up for rent in their area and click on each one for more info. Once a user selects a bike to rent, the user's PayPal account will be authenticated so that they can be charged at the hourly rate through their PayPal account. Once the user is authenticated, that particular phone will be given permission to unlock that bike's lock using NFC.</p>
+                            <p class="users"><i class="fa fa-users"></i>&nbsp;&nbsp;&nbsp;&nbsp;Dar Mehta, Emil Ekmecic, Wesley Yue, Shahzaib Gill</p>
+                            <p cass="tools"><i class="fa fa-wrench"></i>&nbsp;&nbsp;&nbsp;&nbsp;Arduino, NFC Shield & API, Android Studio, Java, Google Maps API</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <div class="wide-container">
+                                    <div id="proj4">
+                                        <ul class="slides-container">
+                                            <li>
+                                                <img src="projects-assets/Cycle/Cycle1.jpg">
+                                            </li>
+                                            <li>
+                                                <img src="projects-assets/Cycle/Cycle4.jpg">
+                                            </li>
+                                            <li>
+                                                <img src="projects-assets/Cycle/Cycle5.jpg">
+                                            </li>
+                                        </ul>
+                                        <nav class="slides-navigation"> 
+                                            <a href="#" class="next"><i class="fa fa-chevron-circle-right fa-stack-1x-shadow"></i></a>
+                                            <a href="#" class="prev"><i class="fa fa-chevron-circle-left fa-stack-1x-shadow"></i></a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <!-- END PROJECT FOUR -->
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="spacer"></div>    
+                        </div>
+                    </div>
+                    
+                    <!-- PROJECT FIVE -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <div class="wide-container">
+                                    <div id="proj5">
+                                        <ul class="slides-container">
+                                            <li>
+                                                <img src="projects-assets/Website/Website1.png">
+                                            </li>
+                                            <li>
+                                                <img src="projects-assets/Website/Website2.png">
+                                            </li>
+                                        </ul>
+                                        <nav class="slides-navigation"> 
+                                            <a href="#" class="next"><i class="fa fa-chevron-circle-right fa-stack-1x-shadow"></i></a>
+                                            <a href="#" class="prev"><i class="fa fa-chevron-circle-left fa-stack-1x-shadow"></i></a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-7" id="projdesc">
+                            <h5 style="padding-top: 85px;">Personal Website w/ Blog</h5>
+                            <a id="gitbtn" href="http://github.com/dar-mehta" target="_blank"><i class="fa fa-github github-icon"></i>&nbsp;&nbsp;View Code</a>
+                            <p style="margin-top: -20px;">Built a fully responsive personal website from scratch using the Adobe Brackets editor. Implemented jQuery and external plugins (e.g. Superslides) and incorporated a Wordpress Blog.</p>
+                            <p class="users"><i class="fa fa-users"></i>&nbsp;&nbsp;&nbsp;&nbsp;Dar Mehta</p>
+                            <p class="tools"><i class="fa fa-wrench"></i>&nbsp;&nbsp;&nbsp;&nbsp;HTML, CSS, Bootstrap, jQuery, Wordpress</p>
+                        </div>
+                    </div>
+                    <!-- END PROJECT FIVE -->
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="spacer"></div>    
+                        </div>
+                    </div>
+
+                    <!-- PROJECT SIX -->
+                    <div class="row">
+                        <div class="col-md-7" id="projdesc">
+                            <h5 style="padding-top: 35px;">Receipt Digitizer - Hack the North Waterloo 2015</h5>
+                            <a id="gitbtn" href="http://github.com/dar-mehta" target="_blank"><i class="fa fa-github github-icon"></i>&nbsp;&nbsp;View Code</a>
+                            <p style="margin-top: -20px;">Built an Android application to automate budgeting for consumers. Users are able to take a picture of their receipts. The Android app, using Google's Tesseract OCR library, converts the image into useful text such as the store's name, and isolates product name and price. This data is then exported to an excel spreadsheet for easy budgeting and hassle-free tracking of receipts. </p>
+                            <p class="users"><i class="fa fa-users"></i>&nbsp;&nbsp;&nbsp;&nbsp;Dar Mehta, Jiesi Ren, Abderrahmane Melhaoui</p>
+                            <p cass="tools"><i class="fa fa-wrench"></i>&nbsp;&nbsp;&nbsp;&nbsp;Java, Google Tesseract API, Android Studio</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <div class="wide-container">
+                                    <div id="proj6">
+                                        <ul class="slides-container">
+                                            <li>
+                                                <img src="projects-assets/Receipt Digitizer/RD1.png">
+                                            </li>
+                                        </ul>
+                                        <nav class="slides-navigation"> 
+                                            <a href="#" class="next"><i class="fa fa-chevron-circle-right fa-stack-1x-shadow"></i></a>
+                                            <a href="#" class="prev"><i class="fa fa-chevron-circle-left fa-stack-1x-shadow"></i></a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <!-- END PROJECT SIX -->
+                </div>
+            </div>
+        </div>
+    <!-- END PROJECTS -->
+      
+    <!-- CONTACT -->
+    <div class="contact">
+        <a name="contact">
+            <h2 style="padding-top: 7px; margin-top: -7px;"></h2>
+        </a>
+        <h4>Have a project in mind? &nbsp;Let's get started!</h4>
+        <a id="sqbtn" href="mailto:dr2mehta@uwaterloo.ca"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Contact Me</a>
+    </div>
+    <!-- END CONTACT -->
+      
+    <!-- JQUERY SCRIPTS -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/superslides-0.6.2/examples/javascripts/jquery.easing.1.3.js"></script>
+    <script src="js/superslides-0.6.2/examples/javascripts/jquery.animate-enhanced.min.js"></script>
+    <script src="js/superslides-0.6.2/dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+      
+    <!-- PROJECTS SLIDER SCRIPT -->
+    <script>
+        $(function() {
+            $('#proj1').superslides({
+                inherit_width_from: '.wide-container',
+                inherit_height_from: '.wide-container',
+                pagination: true,
+                play: 4000
+            });
+            $('#proj2').superslides({
+                inherit_width_from: '.wide-container',
+                inherit_height_from: '.wide-container',
+                pagination: true,
+                play: 4000
+            });
+            $('#proj3').superslides({
+                inherit_width_from: '.wide-container',
+                inherit_height_from: '.wide-container',
+                pagination: true,
+                play: 7000
+            });
+            $('#proj4').superslides({
+                inherit_width_from: '.wide-container',
+                inherit_height_from: '.wide-container',
+                pagination: true,
+                play: 4000
+            });
+            $('#proj5').superslides({
+                inherit_width_from: '.wide-container',
+                inherit_height_from: '.wide-container',
+                pagination:true,
+                play: 4000
+            });
+            $('#proj6').superslides({
+                inherit_width_from: '.wide-container',
+                inherit_height_from: '.wide-container',
+            });
+        });
+    </script>
+    <!-- END PROJECTS SLIDER SCRIPT -->
+      
+    <!-- SMOOTH SCROLLING WITH OFFSET -->
+    <script>   
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top-49
+                }, 750);
+
+                  $(document.activeElement).blur()
+
+                  console.log(window.location);
+                return false;
+              }
+            }
+          });
+        });
+    </script>  
+    <!-- END SMOOTH SCROLLING WITH OFFSET -->
+    <!-- END JQUERY SCRIPTS -->
